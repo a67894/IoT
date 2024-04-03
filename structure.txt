@@ -1,0 +1,23 @@
+├── middleware
+│   └── converter.js
+├── plugins
+│   ├── external
+│   │   ├── coapPlugin.js
+│   │   └── mqttPlugin.js
+│   └── internal
+│       ├── BME280SensorPlugin.js
+│       └── weather.py
+├── resources
+│   ├── model.js
+│   └── resources.json
+├── routes
+│   ├── sensors.js
+│   └── things.js
+├── servers
+│   ├── coap.js
+│   └── http.js
+├── utils
+│   └── utils.js
+├── evrythng.config.json
+├── package.json
+└── wot-server.js

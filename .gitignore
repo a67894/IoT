@@ -1,0 +1,4 @@
+node_modules/
+
+# Ignore every .config.* file EXCEPT if it's a .example.config.* file:
+*[^example].config.*
