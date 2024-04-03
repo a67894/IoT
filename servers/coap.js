@@ -4,7 +4,7 @@ const coap = require('coap'),
 			port = 5683
 
 
-const model = resources.coapDevice.sensors
+const model = resources.things.coapDevice.sensors
 
 
 coap

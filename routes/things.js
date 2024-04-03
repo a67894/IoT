@@ -8,7 +8,7 @@ router
 	.get(function (req, res, next) {
 		const id = req.params.id
 
-		req.result = resources.coapDevice.sensors[id]
+		req.result = resources.things.coapDevice.sensors[id]
 
 		next()
 	})

@@ -9,8 +9,8 @@ const	utils = require('./../../utils/utils.js'),
 
 
 var interval,
-		me = resources.coapDevice.sensors,
- 		pluginName = resources.coapDevice.name,
+		me = resources.things.coapDevice.sensors,
+ 		pluginName = resources.things.coapDevice.name,
 		localParams = {
 			'simulate': false,
 			'frequency': 5000

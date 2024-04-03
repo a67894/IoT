@@ -27,28 +27,30 @@
 			}
     }
   },
-	"coapDevice": {
-		"name": "A CoAP Device",
-		"description": "A simple CoAP device.",
-		"port": 5683,
-		"sensors": {
-			"temperature": {
-				"name": "Temperature Sensor",
-				"description": "An ambient temperature sensor.",
-				"unit": "°C",
-				"value": 0
-			},
-			"humidity": {
-				"name": "Humidity Sensor",
-				"description": "An ambient humidity sensor.",
-				"unit": "%",
-				"value": 0
-			},
-			"pressure": {
-				"name": "Pressure Sensor",
-				"description": "An ambient pressure sensor.",
-				"unit": "hPa",
-				"value": 0
+	"things": {
+		"coapDevice": {
+			"name": "A CoAP Device",
+			"description": "A simple CoAP device.",
+			"port": 5683,
+			"sensors": {
+				"temperature": {
+					"name": "Temperature Sensor",
+					"description": "An ambient temperature sensor.",
+					"unit": "°C",
+					"value": 0
+				},
+				"humidity": {
+					"name": "Humidity Sensor",
+					"description": "An ambient humidity sensor.",
+					"unit": "%",
+					"value": 0
+				},
+				"pressure": {
+					"name": "Pressure Sensor",
+					"description": "An ambient pressure sensor.",
+					"unit": "hPa",
+					"value": 0
+				}
 			}
 		}
 	}
